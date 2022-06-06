@@ -1,12 +1,23 @@
-# wordpress-base-plugin
-A bare-minimum WordPress plugin using Docker-Compose
+# Simple Google Analytics v4 Plugin
 
-1. Clone this repository
-2. Edit `docker-compose.yml` change the volume path from `/base-plugin` to the name of your plugin e.g. `/booking-plugin`
-3. Rename `base-plugin.php` to your plugin name, it should match the folder name e.g. `booking-plugin.php`
-2. Run docker `docker-compose up -d`
-3. Navigate to `localhost:8000`
+This Simple plugin adds the Google Analytics v4 Global site tag (gtag.js) 
+in the header of each page on WordPress.
 
+To retrieve your Measurement ID view your Analytics Property and click Web stream details. 
 
-Helpful links:
-- https://developer.wordpress.org/plugins/
+In the stream details you will see:
+- Stream Name
+- Stream URL
+- Stream ID
+- Measurement ID
+
+Copy the `Measurement ID` and paste that value into the Measurement ID field in the Simple Google Analytics 4 Plugin options page.
+
+You can add and maintain tags through a web interface to send data to Google Analytics, as well as other Google and non-Google tools. 
+
+Find out more about using Google Tag Manager
+
+https://support.google.com/tagmanager/answer/6102821?hl=en_US
+
+To create a Google Analytics v4 account you can visit
+https://analytics.google.com/analytics/web/
