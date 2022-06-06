@@ -21,3 +21,7 @@ https://support.google.com/tagmanager/answer/6102821?hl=en_US
 
 To create a Google Analytics v4 account you can visit
 https://analytics.google.com/analytics/web/
+
+Helpful links:
+- https://support.google.com/tagmanager/answer/9442095?hl=en
+- https://support.google.com/analytics/answer/10270783?hl=en
